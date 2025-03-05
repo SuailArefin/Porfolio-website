@@ -1,0 +1,7 @@
+cd path\to\your\project  (Change directory to your project folder)
+git init  (Initialize Git in the folder)
+git add .  (Stage all files)
+git commit -m "Initial commit"  (Commit the files)
+git branch -M main  (Rename branch to main)
+git remote add origin https://github.com/YOUR_USERNAME/NEW_REPO.git  (Connect to GitHub repo)
+git push -u origin main  (Push to GitHub)
