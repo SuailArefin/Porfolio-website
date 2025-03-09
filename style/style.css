@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    background-color: rgb(64, 62, 62);
+    /* margin: 0%;
+    padding: 0%; */
+}
+/* shared style */
+.text-primary{
+    color: rgb(0, 255, 255);
+       
+}
+.button{
+
+    color: #ffffff;
+    background-color: #FD6E0A;
+    direction: none;
+    /* width: 150px;
+    height: 64px; */
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    padding: 18px 35px; /*18pixel upore niche & 35 pixel dane bame */
+
+    
+}
+.button2{
+
+    color: #FD6E0A;
+    background-color: #ffffff;
+    direction: none;
+    /* width: 150px;
+    height: 64px; */
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    border-color: #FD6E0A;
+    padding: 18px 35px; /*18pixel upore niche & 35 pixel dane bame */
+
+    
+}
+/* Nav Styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.dark2{
+    color: #474747;
+}
+.open-sans-normal{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+.nav-title {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+nav ul li {
+    list-style: none;
+    /* margin-right: 50px; */  
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    background-color: transparent;
+}
+.banner{
+    display: flex;
+    margin-left: 200px;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+    background-color: transparent;
+    
+
+}
+.banner-contant{
+    width: 585px;
+    height: 355px;
+    background-color: transparent;
+}
+.banner-name{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 85px;
+    background-color: transparent;
+
+}
+.banner-hi{
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    padding-bottom: 5px;
+    background-color: transparent;
+}
+.banner-caption{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+    background-color: transparent;
+
+}
+.banner-image{
+    height: 676px;
+    width: 584px;
+    background-color: transparent;
+
+}
