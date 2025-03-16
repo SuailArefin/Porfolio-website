@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 *{
-    background-color: rgb(64, 62, 62);
+    /* background-color: rgb(246, 246, 246); */
     /* margin: 0%;
     padding: 0%; */
 }
@@ -13,7 +13,7 @@
 .button{
 
     color: #ffffff;
-    background-color: #FD6E0A;
+    background-color: rgba(79, 168, 230, 1);
     direction: none;
     /* width: 150px;
     height: 64px; */
@@ -27,7 +27,7 @@
 }
 .button2{
 
-    color: #FD6E0A;
+    color: rgba(79, 168, 230, 1);
     background-color: #ffffff;
     direction: none;
     /* width: 150px;
@@ -35,7 +35,7 @@
     border-radius: 5px;
     font-weight: 700;
     font-size: 20px;
-    border-color: #FD6E0A;
+    border-color: rgba(79, 168, 230, 1);
     padding: 18px 35px; /*18pixel upore niche & 35 pixel dane bame */
 
     
@@ -54,13 +54,26 @@ nav{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-variation-settings:"wdth" 100;
+    font-variation-settings:"width" 100;
 }
 .nav-title {
     font-family: "Open Sans", sans-serif;
     font-weight: 800;
     font-size: 45px;
+    color: #181818;
 }
+.secondary-background{
+    color: #FFF8F3;
+
+
+}
+
+
+
+
+
+
+
 nav ul{
     display: flex;
     align-items: center;
@@ -80,8 +93,11 @@ nav ul li a{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left,bottom right;
-    background-color: transparent;
+
+    /* background-color: transparent; */
 }
+
+
 .banner{
     display: flex;
     margin-left: 200px;
@@ -94,13 +110,15 @@ nav ul li a{
 .banner-contant{
     width: 585px;
     height: 355px;
-    background-color: transparent;
+    /* background-color: transparent; */
 }
 .banner-name{
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-size: 85px;
+    color:#181818 ;
     background-color: transparent;
+    margin-bottom: 0px;
 
 }
 .banner-hi{
@@ -109,18 +127,220 @@ nav ul li a{
     font-weight: 600;
     font-size: 45px;
     padding-bottom: 5px;
-    background-color: transparent;
+    /* background-color: transparent; */
+    padding-top: 100px;
+   
 }
 .banner-caption{
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     padding-top: 20px;
     background-color: transparent;
+    color: #757575;
 
 }
 .banner-image{
-    height: 676px;
-    width: 584px;
+    /* height: 676px;
+    width: 584px; */
     background-color: transparent;
+
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+
+}
+.section-description{
+
+    color: #757575;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+     
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+
+
+
+}
+/* main styles.................. */
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    /* background-color: #e2b5b5; */
+    /* margin-top: 130px; */
+    
+}
+.item-description{
+    font-weight: bold;
+    color: #474747;
+    font-size: 20px;
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+    /* margin-bottom: 0px;
+    padding-top: 30px; */
+
+
+}
+.item-title{
+    text-align: center;
+    font-size: 20px;
+    color: #757575;
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
+
+}
+/* ...............what-i-do......... */
+.do-div{
+    /* border: #352f2f;
+
+    color: #482020; */
+    width: 270px;
+    height: 380px;
+    align-items: center;
+    padding-top: 50px;
+    border-radius: 5PX;
+    box-shadow: 0px 6px 50px 0px rgba(200, 231, 252, 1);
+    
+    /* background-color: #352f2f; */
+
+}
+.do-section{
+    display: flex;
+    justify-content: space-between;
+    /* color: #FD6E0A; */
+    gap: 24px;
+    
+    
+    
+}
+.icon-mid{
+    /* align-items:start ; */
+    padding: 30px 200px 0px 30px;
+    margin-bottom: 0px;
+    
+}
+.section2{
+    /* margin-top: 150px; */
+    /* background: #352f2f; */
+   
+}
+.section-div-txt{
+    color: #757575;
+    margin-top: none;
+    height: 240px;
+    width: 200px;
+    padding: 10px 30px 30px 30px;
+    
+}
+/* ....................resume.................. */
+.resume-title{
+    font-size: 35px;
+    font-weight: 800;
+    text-align: start;
+    
+
+}
+.resume-colum-title{
+    color: #181818;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: start;
+
+}
+.experience-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: start;
+
+}
+.experience-sub-tile{
+    color:#757575 ;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: start;
+
+}
+.experience-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: start;
+
+}
+.resume-cn{
+    display: flex;
+    gap: 25px;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+
+
+
+
+
+
+
+
+/* ................footer........... */
+.footer{
+    /* align-items: center; */
+    /* width: 1600px;
+    height: 780px; */
+    display: flex;
+    background-color: rgba(200, 231, 252, 1);
+    /* justify-content: space-between; */
+    padding: 130px 230px;
+    gap: 100px;
+}
+/* .form{
+    display: block;
+    text-align: center;
+} */
+.footer-column{
+    width: 50%;
+}
+/* ................................form css................. */
+footer input[type="text"], footer input[type="email"]{
+    height: 54px;
+    border-radius: 5px;
+    background-color: #FFF8F3;
+    display: block;
+    width: 460px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
+}
+footer input[type="mtext"]{
+    height: 184px;
+    border-radius: 5px;
+    background-color: #FFF8F3;
+    display: block;
+    width: 460px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    text-align:start;
 
 }
