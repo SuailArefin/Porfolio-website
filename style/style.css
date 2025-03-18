@@ -217,15 +217,15 @@ main{
     height: 380px;
     align-items: center;
     padding-top: 50px;
-    border-radius: 5PX;
-    box-shadow: 0px 6px 50px 0px rgba(200, 231, 252, 1);
+    border-radius: 8PX;
+    box-shadow: 0px 6px 50px 0px rgb(210, 210, 210);
     
     /* background-color: #352f2f; */
 
 }
 .do-section{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* color: #FD6E0A; */
     gap: 24px;
     
@@ -343,4 +343,50 @@ footer input[type="mtext"]{
     border: none;
     text-align:start;
 
+}
+/* ........................Responsiveness........................ */
+@media screen and (max-width:576px){
+    .do-section{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    .resume-cn, .about-items{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer{
+        
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+
+    }
+    .footer-column{
+        width: 100%;
+    }
+    footer input[type="text"], footer input[type="email"]{
+        width: calc(100% - 40px);
+
+    }
+    footer input[type="mtext"]{
+        width: calc(100% - 40px);
+    }
+    .about{
+        padding: 20px;
+    }
+
+
+    /* ........ey way te kora easy........... */
+    /* .footer, .resume-cn, .do-div{
+        
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    } */
 }
