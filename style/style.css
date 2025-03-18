@@ -389,10 +389,13 @@ footer input[type="mtext"]{
         color: #181818;
 
     }
-    /* .secondary-background{
-        background-image: none;
+    .secondary-background{
+        /* background-image: none; */
+        background-image: none ,url(../images/header_bg.png);
+        /* background-repeat: no-repeat;
+        background-position: top left,bottom right; */
 
-    } */
+    }
     .header > nav{
         margin: 10px;
         flex-direction: column;
